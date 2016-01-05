@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 16px/24px "Arial";
+}
+h1 , h2 , h3 , h4 {
+	margin:1em 0;
+}
+.center{
+	text-align: center;
+}
+#pagiWrapper ul{
+	text-align: center;
+	list-style-type: none;
+	background:#eeeeee;
+}
+#pagiWrapper ul li{
+	display: inline-block;
+	border:1px solid #e3e3e3;
+	padding:2px 5px;
+}
