@@ -1,4 +1,4 @@
-# paginationjs
+#Paginathor
 assets/js/scripts.js
 
 ```js
