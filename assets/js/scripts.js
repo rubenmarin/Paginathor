@@ -1,10 +1,10 @@
 /*.ready*/
 $(function() {
 	/*
-		var paginatehtml = Paginathor.build({ page : 1 , total : 214 , limit : 10 , adj : 1 , target : '#'});
-		var pagiWrapper = document.getElementById("pagination-wrapper").firstElementChild;
+		var myPagi = new Paginathor({ page : 1 , total : 214 , limit : 10 , adj : 1 , target : '#' , elClass : 'submission-page' });
+		var pagiBuild = myPagi.build();
 		//<div id="pagination-wrapper"><ul></ul></div> 
-		pagiWrapper.innerHTML = paginatehtml;
+		pagiWrapper.innerHTML = pagiBuild;
 	*/
 
 	var myPagi = new Paginathor({ page : 1 , total : 214 , limit : 10 , adj : 1 , target : '#' , elClass : 'submission-page' });
